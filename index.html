@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<body>
+    <div class="Product-container">
+        <h2 id="product-name">Sweatshirt</h2>
+        <p id="product-price">$35</p>
+        <label for="size-selector"> Please choose your size:</label>
+        <select id="size-selector"> 
+            <option value="small" data-price= "35" data-stock="in-stock">Small: In Stock </option>
+            <option value="medium" data-price="40" data-stock="out-of-stock"> Medium: Out of Stock </option>
+            <option value="large" data-price="45" data-stock="out-of-stock">Large: Out of Stock</option>
+        </select>
+        <button id="purchase-button" disabled>Purchase</button>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
